@@ -1,6 +1,4 @@
 ---
-id: 'fork_1'
-prev: 'root'
 next: 'challenge'
 ---
 

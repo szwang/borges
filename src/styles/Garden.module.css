@@ -1,0 +1,37 @@
+.gardenContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.gardenContainer ul {
+  position: relative;
+
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+.gardenContainer li {
+  float: left;
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+  padding: 20px 5px 0 5px;
+
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+.card {
+  position: relative;
+}
+
+.textView {
+  display: flex;
+  border: 1px black solid;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 20px 50px 200px;
+  width: 300px;
+}

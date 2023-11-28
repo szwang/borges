@@ -3,6 +3,6 @@ forks:
   - first
 ---
 
-Here is my _great_ path!
+you begin your journey with a pig named ricardo. 
 
-I have a lot to say
+he is a truffle pig with an exceptional sense of smell and a sad face.

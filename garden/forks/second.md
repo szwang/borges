@@ -1,5 +1,5 @@
 ---
-next: gnome
+next: mystery
 ---
 
-a second fork in the road
+read mission

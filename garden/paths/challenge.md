@@ -1,9 +1,6 @@
 ---
 forks: 
   - second
-  - third
 ---
 
-now there is a challenge
-
-here is a new path
+ricardo enjoys your pets, but knows that you have a mission.

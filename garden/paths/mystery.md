@@ -4,6 +4,6 @@ forks:
   - fourth
 ---
 
-you must find a white truffle in this forest!
+you are tasked with finding a white truffle in this forest.
 
 where do you choose to begin?

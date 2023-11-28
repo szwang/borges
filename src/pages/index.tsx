@@ -47,7 +47,7 @@ export default function Home({forkData, pathData}) {
       </Head>
 
       <main className={styles.storyWrapper}>
-        <div key={currentPathId} >
+        <div key={currentPathId} className={styles.storyWords}>
           <TypeIt 
             options={{
               strings: currentPath.linesHtml,
@@ -58,9 +58,10 @@ export default function Home({forkData, pathData}) {
         </div>
         <div className={styles.forkWrapper}>
           {isTypingComplete && currentForks.map((fork) => 
-            <button key={fork.id} onClick={() => takePath(fork.next)}>{parse(fork.contentHtml)}</button>
+            <button className={styles.forkButton} key={fork.id} onClick={() => takePath(fork.next)}>{parse(fork.contentHtml)}</button>
           )}
         </div>
+      {currentPathId === "gnome" ? <div>hello</div> : null}
       </main>
     </>
   )
